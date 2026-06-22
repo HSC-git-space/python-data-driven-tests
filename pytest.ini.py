@@ -1,6 +1,7 @@
 [pytest]
 testpaths = tests
 addopts = --html=reports/report.html --self-contained-html -v
+pythonpath = .
 markers =
 smoke: smoke tests
 regression: regression tests
