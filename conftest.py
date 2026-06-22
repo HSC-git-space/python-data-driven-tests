@@ -33,6 +33,4 @@ def posts_data_excel():
 @pytest.fixture
 def negative_posts_excel():
     from utils.data_loader import load_excel
-    return load_excel("data/posts.xlsx", sheet_name="negative_cases")git add .
-git commit -m "feat: add conftest with session fixtures for clients, Faker seed, and data loaders"
-git push origin main
+    return load_excel("data/posts.xlsx", sheet_name="negative_cases")

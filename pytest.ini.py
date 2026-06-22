@@ -1,0 +1,10 @@
+[pytest]
+testpaths = tests
+addopts = --html=reports/report.html --self-contained-html -v
+markers =
+smoke: smoke tests
+regression: regression tests
+negative: negative tests
+csv_driven: tests driven by CSV data
+excel_driven: tests driven by Excel data
+faker_driven: tests driven by Faker generated data
